@@ -12,6 +12,7 @@
 
     <!-- Styles / Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @livewireStyles
 
 </head>
 <body class="font-sans antialiased bg-oqsc-bg text-oqsc-text">
@@ -569,7 +570,6 @@
                     </div>
                 </div>
 
-
             </main>
             <footer class="bg-gray-900">
                 <div class="mx-auto max-w-7xl overflow-hidden px-6 py-20 sm:py-24 lg:px-8">
@@ -613,5 +613,6 @@
         </div>
     </div>
 </div>
+@livewireScripts
 </body>
 </html>
