@@ -17,6 +17,17 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
         },
+        colors: {
+            'oqsc-text': '#EFEFEF',
+            'oqsc-heading-start': '#F1C107',
+            'oqsc-heading-end': '#9F7C14',
+            'oqsc-bg': '#08080A',
+            'oqsc-cta': '#FAA315',
+            'oqsc-cta-hover': '#086788',
+
+
+
+        }
     },
 
     plugins: [forms, typography],
