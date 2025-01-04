@@ -27,7 +27,7 @@ class Page extends Component
             'email' => $this->email,
         ];
 
-        Mail::to('jakub.zavacky@gmail.com')->send(new NewsletterSubscription($data));
+        Mail::to('otagoquranstudyclub@gmail.com')->send(new NewsletterSubscription($data));
 
         session()->flash('subscription', 'Email sent successfully!');
     }
