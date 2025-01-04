@@ -9,6 +9,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet"/>
+    <link rel="icon" href="{{ asset('storage/images/oqsc_logo_v2.png') }}" type="image/x-icon">
 
     <!-- Styles / Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
@@ -482,7 +483,7 @@
                             class="mx-auto mt-20 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-center lg:mx-0 lg:max-w-none">
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/man.jpg') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Sheikh Muhammad Amir</h3>
                                 <p class="text-sm/6 text-oqsc-text">PATRON-IN-CHIEF</p>
@@ -495,49 +496,49 @@
                             class="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6">
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/man.jpg') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Ustad Ibrahim</h3>
                                 <p class="text-sm/6 text-oqsc-text">TEACHER</p>
                             </li>
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/man.jpg') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Sheikh Ali</h3>
                                 <p class="text-sm/6 text-oqsc-text">TEACHER</p>
                             </li>
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/mousa.jpg') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Ustad Mousa</h3>
                                 <p class="text-sm/6 text-oqsc-text">TEACHER</p>
                             </li>
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/man.jpg') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Ustad Yasir</h3>
                                 <p class="text-sm/6 text-oqsc-text">TEACHER</p>
                             </li>
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/woman.png') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Ustadah Somaya</h3>
                                 <p class="text-sm/6 text-oqsc-text">TEACHER</p>
                             </li>
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/woman.png') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Ustadah Sara</h3>
                                 <p class="text-sm/6 text-oqsc-text">TEACHER</p>
                             </li>
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/woman.png') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Ustadah Hager</h3>
                                 <p class="text-sm/6 text-oqsc-text">TEACHER</p>
@@ -550,42 +551,42 @@
                             class="mx-auto mt-20 grid max-w-2xl grid-cols-2 gap-x-8 gap-y-16 text-center sm:grid-cols-3 md:grid-cols-4 lg:mx-0 lg:max-w-none lg:grid-cols-5 xl:grid-cols-6">
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/asrar.jpeg') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Dr Asrar</h3>
                                 <p class="text-sm/6 text-oqsc-text">PRESIDENT</p>
                             </li>
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/muhammad.jpg') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Dr Muhammad</h3>
                                 <p class="text-sm/6 text-oqsc-text">SECRETARY GENERAL</p>
                             </li>
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/amira.jpeg') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Dr Amira</h3>
                                 <p class="text-sm/6 text-oqsc-text">PUBLIC RELATIONS</p>
                             </li>
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/zohaib.jpeg') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Dr Zohaib</h3>
                                 <p class="text-sm/6 text-oqsc-text">TREASURER</p>
                             </li>
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/nadir.jpg') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Br Nadir</h3>
                                 <p class="text-sm/6 text-oqsc-text">ONLINE COMMUNITY</p>
                             </li>
                             <li>
                                 <img class="mx-auto size-24 rounded-full"
-                                     src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
+                                     src="{{ asset('storage/images/people/jakub.png') }}"
                                      alt="">
                                 <h3 class="mt-6 text-base/7 font-semibold tracking-tight text-oqsc-text">Br Jakub</h3>
                                 <p class="text-sm/6 text-oqsc-text">IT MANAGEMENT</p>
