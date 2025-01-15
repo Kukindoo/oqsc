@@ -119,7 +119,7 @@
                             </p>
                             <div class="mt-10 flex items-center justify-center gap-x-6">
                                 {{--                                <a href="#"--}}
-                                {{--                                   class="rounded-md bg-oqsc-cta text-oqsc-bg px-3.5 py-2.5 text-sm font-semibold text-oqsc-text shadow-sm--}}
+                                {{--                                   class="rounded-md bg-oqsc-cta px-3.5 py-2.5 text-sm font-semibold text-oqsc-text shadow-sm--}}
                                 {{--                                   hover:bg-oqsc-cta-hover hover:text-oqsc-text--}}
                                 {{--                                   focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get--}}
                                 {{--                                    started</a>--}}
