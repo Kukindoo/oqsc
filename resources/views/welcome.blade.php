@@ -131,47 +131,58 @@
                             Everything you need grow your islamic knowledge,
                         </x-oqsc.headings.h2>
                         <x-oqsc.headings.afterheading>
-                            From essential Islamic knowledge through Tajweed and Ijazah.
+                            Our courses range from 12-week programs to 6-month and even 2-year certifications, covering
+                            Ijazah, certifying teachers, Quran recitation for reverts, Seerah, and weekly Tafsir.
                         </x-oqsc.headings.afterheading>
                     </div>
-                    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-                        <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-                            <div class="flex flex-col">
-                                <dt class="flex items-center gap-x-3 text-base/7 font-semibold text-oqsc-heading-start">
-                                    Seerah courses
-                                </dt>
-                                <dd class="mt-4 flex flex-auto flex-col text-base/7 text-oqsc-text">
-                                    <p class="flex-auto">Seerah courses focus on life of prophet Muhammad(pbuh)</p>
-                                    <p class="mt-6">
-                                        {{--                                            <a href="#" class="text-sm/6 font-semibold text-indigo-400" >Learn more <span aria-hidden="true">→</span></a>--}}
-                                    </p>
-                                </dd>
-                            </div>
-                            <div class="flex flex-col">
-                                <dt class="flex items-center gap-x-3 text-base/7 font-semibold text-oqsc-heading-start">
-                                    Weekly Study Club
-                                </dt>
-                                <dd class="mt-4 flex flex-auto flex-col text-base/7 text-oqsc-text">
-                                    <p class="flex-auto">Immerse yourself in Quran with explanations in our weekly
-                                        meetings or online.</p>
-                                    <p class="mt-6">
-                                        {{--                                            <a href="#" class="text-sm/6 font-semibold text-indigo-400">Learn more <span aria-hidden="true">→</span></a>--}}
-                                    </p>
-                                </dd>
-                            </div>
-                            <div class="flex flex-col">
-                                <dt class="flex items-center gap-x-3 text-base/7 font-semibold text-oqsc-heading-start">
-                                    Ijazah
-                                </dt>
-                                <dd class="mt-4 flex flex-auto flex-col text-base/7 text-oqsc-text">
-                                    <p class="flex-auto">Advance your confidence in reading Quran like a Mufti.</p>
-                                    <p class="mt-6">
-                                        {{--                                            <a href="#" class="text-sm/6 font-semibold text-indigo-400">Learn more <span aria-hidden="true">→</span></a>--}}
-                                    </p>
-                                </dd>
-                            </div>
-                        </dl>
-                    </div>
+                    <x-oqsc.small-cards.container>
+                        <x-oqsc.small-cards.item title="Seerah Course">
+                            <p>
+                                Seerah courses focus on life of prophet Muhammad(pbuh)
+                            </p>
+                            <p class="mt-6">
+                                {{--                                            <a href="#" class="text-sm/6 font-semibold text-indigo-400" >Learn more <span aria-hidden="true">→</span></a>--}}
+                            </p>
+                        </x-oqsc.small-cards.item>
+
+                        <x-oqsc.small-cards.item title="Weekly Quaran Tafseer">
+                            <p class="flex-auto">
+                                Immerse yourself in Quran with explanations in our weekly
+                                meetings or online.
+                            </p>
+                            <p class="mt-6">
+                                {{--                                            <a href="#" class="text-sm/6 font-semibold text-indigo-400">Learn more <span aria-hidden="true">→</span></a>--}}
+                            </p>
+                        </x-oqsc.small-cards.item>
+
+                        <x-oqsc.small-cards.item title="Ijazah Course">
+                            <p class="flex-auto">
+                                Advance your confidence in reading Quran with tajweed. Courses are led by Sheikh Amir.
+                            </p>
+                            <p class="mt-6">
+                                {{--                                            <a href="#" class="text-sm/6 font-semibold text-indigo-400">Learn more <span aria-hidden="true">→</span></a>--}}
+                            </p>
+                        </x-oqsc.small-cards.item>
+
+                        <x-oqsc.small-cards.item title="Qari Future Programme">
+                            <p class="flex-auto">
+                                For those who want to become a Qari, this course is for you.
+                            </p>
+                            <p class="mt-6">
+                                {{--                                            <a href="#" class="text-sm/6 font-semibold text-indigo-400">Learn more <span aria-hidden="true">→</span></a>--}}
+                            </p>
+                        </x-oqsc.small-cards.item>
+
+                        <x-oqsc.small-cards.item title="Bridging course">
+                            <p class="flex-auto">
+                                Bridging course
+                            </p>
+                            <p class="mt-6">
+                                {{--                                            <a href="#" class="text-sm/6 font-semibold text-indigo-400">Learn more <span aria-hidden="true">→</span></a>--}}
+                            </p>
+                        </x-oqsc.small-cards.item>
+
+                    </x-oqsc.small-cards.container>
                 </x-oqsc.containers.section>
 
                 <!-- Visionaire -->
@@ -363,26 +374,26 @@
                             <div class="flex flex-col bg-white/5 p-8">
                                 <dt class="text-sm/6 font-semibold text-oqsc-text">Student to the day</dt>
                                 <dd class="order-first text-3xl font-semibold tracking-tight text-oqsc-heading-start">
-                                    1,000+
+                                    80
                                 </dd>
                             </div>
                             <div class="flex flex-col bg-white/5 p-8">
                                 <dt class="text-sm/6 font-semibold text-oqsc-text">Weekly Quranic lessons delivered
                                 </dt>
                                 <dd class="order-first text-3xl font-semibold tracking-tight text-oqsc-heading-start">
-                                    365
+                                    104
+                                </dd>
+                            </div>
+                            <div class="flex flex-col bg-white/5 p-8">
+                                <dt class="text-sm/6 font-semibold text-oqsc-text">Number of teachers</dt>
+                                <dd class="order-first text-3xl font-semibold tracking-tight text-oqsc-heading-start">
+                                    10
                                 </dd>
                             </div>
                             <div class="flex flex-col bg-white/5 p-8">
                                 <dt class="text-sm/6 font-semibold text-oqsc-text">Number of courses</dt>
                                 <dd class="order-first text-3xl font-semibold tracking-tight text-oqsc-heading-start">
-                                    71
-                                </dd>
-                            </div>
-                            <div class="flex flex-col bg-white/5 p-8">
-                                <dt class="text-sm/6 font-semibold text-oqsc-text">Course completion rate</dt>
-                                <dd class="order-first text-3xl font-semibold tracking-tight text-oqsc-heading-start">
-                                    98%
+                                    5
                                 </dd>
                             </div>
                         </dl>
